@@ -15,12 +15,13 @@
   <div class="container header__inner">
     <a class="brand" href="#top" aria-label="Lucas Beals home">
       <span class="brand__mark">LB</span>
-      <span class="brand__name">Beals Advisory Services</span>
+      <span class="brand__name">Beals Advisory</span>
     </a>
 
     <nav class="nav" aria-label="Main navigation">
-      <a href="#approach">Approach</a>
-      <a href="#services">Services</a>
+      <a href="advisory-services.html">Advisory Services</a>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="faq.html">FAQ</a>
       <a class="btn btn--small" href="#contact">Schedule a Consultation</a>
     </nav>
   </div>
@@ -37,9 +38,19 @@
         Fractional CFO and FP&amp;A leadership for startups, SMEs, and venture-backed companies —
         operator-minded finance expertise, delivered flexibly.
       </p>
+      <div class="approach-steps" aria-label="Approach framework">
+        <p class="approach-intro">Approach:</p>
+        <ol class="approach-list">
+          <li><strong>Understand</strong> Clarify business drivers, goals, and constraints</li>
+          <li><strong>Model</strong> Translate operations into a financial framework</li>
+          <li><strong>Align</strong> Connect strategy to operational reality</li>
+          <li><strong>Execute</strong> Support confident, forward-looking decisions</li>
+        </ol>
+      </div>
+
       <div class="hero__actions">
-        <a class="btn btn--primary" href="#contact">Schedule a Consultation</a>
-        <a class="btn" href="#services">View Advisory Services</a>
+        <a class="btn btn--primary" href="advisory-services.html">View Advisory Services</a>
+        <a class="btn btn--primary" href="case-studies.html">Case Studies</a>
       </div>
     </div>
     <div class="hero__side">
@@ -49,61 +60,11 @@
       <aside class="trust-panel" aria-label="Trust indicators">
         <h2>Trusted by growth-stage and established organizations.</h2>
         <ul>
-          <li>15+ years of finance leadership in public and private entities across manufacturing, media, and healthcare industries</li>
+          <li>15+ years of finance leadership across manufacturing and media</li>
           <li>Multi-entity operations, M&amp;A support, and post-close integration</li>
           <li>FP&amp;A transformation and KPI governance in PE-backed environments</li>
         </ul>
       </aside>
-    </div>
-  </div>
-</section>
-
-<section id="approach" class="section">
-  <div class="container section__split">
-    <h2>Approach</h2>
-    <div>
-      <p>
-        No two businesses are the same — financial strategy shouldn’t be either.
-      </p>
-      <p>
-        It starts with a deep understanding of your goals, constraints, and operational drivers. From there,
-        dynamic financial and operational models are built to reflect how your business actually runs — not just
-        how it looks on paper.
-      </p>
-      <p>
-        The result is clarity: scenario planning, live dashboards, and actionable insight that connects strategy
-        to execution. You see exactly what it takes — financially and operationally — to hit your targets.
-      </p>
-      <p>
-        As the business evolves, the model evolves with it — creating a flexible decision framework that supports
-        confident, data-driven growth.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section id="services" class="section section--subtle">
-  <div class="container section__split">
-    <h2>Advisory Services</h2>
-    <div>
-      <div class="service-grid">
-        <article class="service-card">
-          <h3>Interim &amp; Fractional Financial Leadership</h3>
-          <p>Senior finance capability to guide planning, reporting, and executive decision support without a full-time commitment.</p>
-        </article>
-        <article class="service-card">
-          <h3>FP&amp;A and Forecasting Excellence</h3>
-          <p>Forecast architecture, scenario modeling, and management cadence designed for speed, accountability, and strategic clarity.</p>
-        </article>
-        <article class="service-card">
-          <h3>M&amp;A and Integration Support</h3>
-          <p>Financial diligence, integration planning, and post-close performance tracking to reduce execution risk.</p>
-        </article>
-        <article class="service-card">
-          <h3>KPI Governance and Reporting</h3>
-          <p>Executive dashboards and board-ready reporting that connect operational drivers to financial outcomes.</p>
-        </article>
-      </div>
     </div>
   </div>
 </section>
@@ -126,7 +87,7 @@
         <label for="company">Company</label>
         <input id="company" name="company" type="text" autocomplete="organization" />
 
-        <label for="message">How can we help?</label>
+        <label for="message">How can support help?</label>
         <textarea id="message" name="message" rows="6" required></textarea>
 
         <button class="btn btn--primary" type="submit">Send Message</button>
