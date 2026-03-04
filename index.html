@@ -1,111 +1,168 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Beals | Strategic Finance Advisory</title>
-  <meta name="description" content="Strategic finance advisory for executive teams seeking disciplined forecasting, performance visibility, and confident decision support." />
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="script.js"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beals | Strategic Finance Advisory</title>
+    <meta
+      name="description"
+      content="Strategic finance advisory for executive teams seeking disciplined forecasting, performance visibility, and confident decision support."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
 
-<body>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="Lucas Beals home">
+          <span class="brand__mark">LB</span>
+          <span class="brand__name">Beals Advisory</span>
+        </a>
 
-<header class="header">
-  <div class="container header__inner">
-    <a class="brand" href="#top" aria-label="Lucas Beals home">
-      <span class="brand__mark">LB</span>
-      <span class="brand__name">Beals Advisory</span>
-    </a>
-
-    <nav class="nav" aria-label="Main navigation">
-      <a href="advisory-services.html">Advisory Services</a>
-      <a href="case-studies.html">Case Studies</a>
-      <a href="faq.html">FAQ</a>
-      <a class="btn btn--small" href="#contact">Schedule a Consultation</a>
-    </nav>
-  </div>
-</header>
-
-<main id="top">
-
-<section class="hero">
-  <div class="container hero__layout">
-    <div>
-      <p class="eyebrow">Strategic Finance Advisory</p>
-      <h1>Practical finance leadership for better business decisions.</h1>
-      <p class="lead">
-        Fractional CFO and FP&amp;A leadership for startups, SMEs, and venture-backed companies —
-        operator-minded finance expertise, delivered flexibly.
-      </p>
-      <div class="approach-steps" aria-label="Approach framework">
-        <p class="approach-intro">Approach:</p>
-        <ol class="approach-list">
-          <li><strong>Understand</strong> Clarify business drivers, goals, and constraints</li>
-          <li><strong>Model</strong> Translate operations into a financial framework</li>
-          <li><strong>Align</strong> Connect strategy to operational reality</li>
-          <li><strong>Execute</strong> Support confident, forward-looking decisions</li>
-        </ol>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="advisory-services.html">Services</a>
+          <a href="case-studies.html">Case Studies</a>
+          <a href="faq.html">FAQ</a>
+          <a class="btn btn--small" href="#contact">Schedule a Consultation</a>
+        </nav>
       </div>
+    </header>
 
-      <div class="hero__actions">
-        <a class="btn btn--primary" href="advisory-services.html">View Advisory Services</a>
-        <a class="btn btn--primary" href="case-studies.html">Case Studies</a>
+    <main id="top">
+      <section class="hero">
+        <div class="container hero__layout">
+          <div>
+            <p class="eyebrow">Strategic Finance Advisory</p>
+            <h1>Practical finance leadership for better business decisions.</h1>
+            <p class="lead">
+              Fractional CFO and FP&amp;A leadership for startups, SMEs, and
+              venture-backed companies — operator-minded finance expertise,
+              delivered flexibly.
+            </p>
+            <div class="approach-steps" aria-label="Approach framework">
+              <p class="approach-intro">Approach:</p>
+              <ol class="approach-list">
+                <li>
+                  <strong>Understand</strong> Clarify business drivers, goals,
+                  and constraints
+                </li>
+                <li>
+                  <strong>Model</strong> Translate operations into a financial
+                  framework
+                </li>
+                <li>
+                  <strong>Align</strong> Connect strategy to operational reality
+                </li>
+                <li>
+                  <strong>Execute</strong> Support confident, forward-looking
+                  decisions
+                </li>
+              </ol>
+            </div>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="advisory-services.html"
+                >Services</a
+              >
+              <a class="btn btn--primary" href="case-studies.html"
+                >Case Studies</a
+              >
+            </div>
+          </div>
+          <aside class="trust-panel" aria-label="Trust indicators">
+            <h2>Need Help with AI?</h2>
+            <ul>
+              <li>
+                Translate AI from concept into practical operating improvements
+              </li>
+              <li>
+                Apply disciplined financial oversight to tool selection and
+                implementation
+              </li>
+              <li>
+                Convert experimentation into measurable, sustainable performance
+                gains
+              </li>
+              <li>
+                Establish governance, accountability, and performance metrics
+                from day one
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--contact">
+        <div class="container section__split">
+          <h2>Schedule a Consultation</h2>
+          <div>
+            <p class="contact-copy">
+              Engagements are structured to strengthen decision quality, improve
+              cross-functional alignment, and protect enterprise value. Share
+              current priorities, challenges, or upcoming milestones.
+            </p>
+            <form
+              class="contact-form"
+              action="https://formspree.io/f/mzdaglne"
+              method="POST"
+            >
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+              />
+
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+              />
+
+              <label for="company">Company</label>
+              <input
+                id="company"
+                name="company"
+                type="text"
+                autocomplete="organization"
+              />
+
+              <label for="message">How can we help?</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+
+              <div class="contact-actions">
+                <button class="btn btn--primary" type="submit">
+                  Send Message
+                </button>
+                <a
+                  class="btn btn--primary"
+                  href="https://www.linkedin.com/in/lucasbeals/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Connect on LinkedIn</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Lucas Beals Advisory</p>
       </div>
-    </div>
-    <div class="hero__side">
-      <figure class="hero-media">
-        <img src="assets/hero-dashboard.png" alt="Executive financial dashboards displayed across two monitors" />
-      </figure>
-      <aside class="trust-panel" aria-label="Trust indicators">
-        <h2>Trusted by growth-stage and established organizations.</h2>
-        <ul>
-          <li>15+ years of finance leadership across manufacturing and media</li>
-          <li>Multi-entity operations, M&amp;A support, and post-close integration</li>
-          <li>FP&amp;A transformation and KPI governance in PE-backed environments</li>
-        </ul>
-      </aside>
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="section section--contact">
-  <div class="container section__split">
-    <h2>Schedule a Consultation</h2>
-    <div>
-      <p class="contact-copy">
-        Engagements are structured to strengthen decision quality, improve cross-functional alignment, and protect
-        enterprise value. Share current priorities, challenges, or upcoming milestones.
-      </p>
-      <form class="contact-form" action="https://formspree.io/f/mzdaglne" method="POST">
-        <label for="name">Name</label>
-        <input id="name" name="name" type="text" autocomplete="name" required />
-
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" autocomplete="email" required />
-
-        <label for="company">Company</label>
-        <input id="company" name="company" type="text" autocomplete="organization" />
-
-        <label for="message">How can support help?</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
-
-        <button class="btn btn--primary" type="submit">Send Message</button>
-      </form>
-      <p class="contact-link">
-        <a href="https://www.linkedin.com/in/lucasbeals/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>.
-      </p>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<footer class="footer">
-  <div class="container footer__inner">
-    <p>© <span id="year"></span> Lucas Beals Advisory</p>
-  </div>
-</footer>
-
-</body>
+    </footer>
+  </body>
 </html>
