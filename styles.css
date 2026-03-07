@@ -416,6 +416,47 @@ h2 {
   margin-top: 4px;
 }
 
+.faq-item {
+  border-radius: 12px;
+}
+
+.faq-item > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.24rem;
+  line-height: 1.3;
+  color: var(--text);
+}
+
+.faq-item > summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item__arrow {
+  color: var(--accent);
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] .faq-item__arrow {
+  transform: rotate(180deg);
+}
+
+.faq-item__answer {
+  margin-top: 14px;
+}
+
+.faq-item__answer p:last-child,
+.faq-item__answer ul:last-child {
+  margin-bottom: 0;
+}
+
 .contact-copy {
   margin-bottom: 18px;
 }
