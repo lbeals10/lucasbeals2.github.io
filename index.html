@@ -15,10 +15,19 @@
   <body>
     <header class="header">
       <div class="container header__inner">
-        <a class="brand" href="#top" aria-label="Lucas Beals home">
-          <span class="brand__mark">LB</span>
-          <span class="brand__name">Beals Advisory</span>
-        </a>
+        <div class="brand">
+          <details class="brand-menu">
+            <summary class="brand__mark" aria-label="Open site menu">LB</summary>
+            <div class="brand-menu__panel" role="menu" aria-label="Quick links">
+              <a href="advisory-services.html" role="menuitem">Services</a>
+              <a href="case-studies.html" role="menuitem">Case Studies</a>
+              <a href="about.html" role="menuitem">About</a>
+              <a href="faq.html" role="menuitem">FAQ</a>
+              <a href="#contact" role="menuitem">Schedule a Consultation</a>
+            </div>
+          </details>
+          <a class="brand__name" href="#top">Beals Advisory</a>
+        </div>
 
         <nav class="nav" aria-label="Main navigation">
           <a href="advisory-services.html">Services</a>
