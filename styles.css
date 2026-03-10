@@ -257,6 +257,10 @@ h1 {
 .page-hero {
   padding: 36px 0 28px;
   border-bottom: 1px solid rgba(23, 43, 77, 0.05);
+  color: #fff;
+}
+
+.section.page-hero {
   background:
     radial-gradient(circle at 70% 30%, rgba(90, 140, 255, 0.18), transparent 45%),
     linear-gradient(135deg, #0b1f3a 0%, #102c54 45%, #1f4c8f 100%);
