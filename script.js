@@ -6,6 +6,7 @@ if (heroSection) {
   const heroImages = [
     "assets/hero-lighthouse.png",
     "assets/hero-ai-network.png",
+    "assets/hero-operations.png",
     "assets/hero-mountain-climb.png",
   ];
 
