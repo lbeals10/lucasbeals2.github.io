@@ -7,7 +7,6 @@ if (heroSection) {
     "assets/hero-lighthouse.png",
     "assets/hero-ai-network.png",
     "assets/hero-operations.png",
-    "assets/hero-mountain-climb.png",
   ];
 
   let heroIndex = 0;
