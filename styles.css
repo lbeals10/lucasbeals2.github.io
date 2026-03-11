@@ -80,7 +80,7 @@ h3 {
 
 .brand__logo {
   display: block;
-  width: clamp(160px, 19vw, 230px);
+  width: clamp(190px, 23vw, 280px);
   height: 44px;
   object-fit: contain;
 }
