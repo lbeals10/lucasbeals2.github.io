@@ -5,8 +5,10 @@ const heroSection = document.querySelector(".hero");
 if (heroSection) {
   const heroImages = [
     "assets/hero-lighthouse.png",
-    "assets/hero-ai-network.png",
     "assets/hero-operations.png",
+    "assets/hero-ai-network.png",
+    "assets/hero-constuction.png",
+    "assets/hero-trucks.png",
   ];
 
   let heroIndex = 0;
