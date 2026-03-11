@@ -7,7 +7,7 @@ if (heroSection) {
     "assets/hero-lighthouse.png",
     "assets/hero-operations.png",
     "assets/hero-ai-network.png",
-    "assets/hero-constuction.png",
+    "assets/hero-construction.png",
     "assets/hero-trucks.png",
   ];
 
