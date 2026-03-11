@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 180" role="img" aria-labelledby="title desc">
+  <title id="title">Beals Advisory logo</title>
+  <desc id="desc">Compass mark with the words Beals Advisory</desc>
+  <defs>
+    <linearGradient id="north" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#52b9ea"/>
+      <stop offset="100%" stop-color="#3492d0"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(90 90)">
+    <polygon points="0,-72 16,-24 0,-33 -16,-24" fill="url(#north)"/>
+    <polygon points="0,72 16,24 0,33 -16,24" fill="#30528f"/>
+    <polygon points="-72,0 -24,-16 -33,0 -24,16" fill="#3f73b8"/>
+    <polygon points="72,0 24,-16 33,0 24,16" fill="#2c4a89"/>
+    <circle r="11" fill="#3d6fb2"/>
+  </g>
+  <text x="185" y="95" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="2" fill="#263867">BEALS</text>
+  <text x="188" y="145" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="400" fill="#32538e">Advisory</text>
+</svg>
